@@ -1,0 +1,46 @@
+name: clima
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  geolocator: ^8.0.1
+  geocoding: ^2.0.1
+  http: ^0.13.4
+  flutter_spinkit: ^5.1.0
+  intl: ^0.17.0
+  font_awesome_flutter: ^9.2.0
+  flutter_svg: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/location_screen/
+    - assets/images/weather_screen/day_night/
+    - assets/images/weather_screen/weather/
+    - assets/images/weather_screen/data/
+    - assets/images/weather_screen/navigation/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf         #300
+        - asset: assets/fonts/Poppins/Poppins-ExtraLight.ttf    #200
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf        #500
+        - asset: assets/fonts/Poppins/Poppins-Thin.ttf          #100
